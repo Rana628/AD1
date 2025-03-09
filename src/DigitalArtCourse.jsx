@@ -116,7 +116,7 @@ const DigitalArtCourse = () => {
         <div className="font-sans bg-gray-50">
             <div className="flex justify-between px-2 md:px-10 py-2">
                 <img src="Im2.jpg" className="w-36 md:h-20 md:aspect-video " />
-                <button className="bg-gradient-to-r from-blue-500 to-purple-500 text-xl w-auto px-3  sm:w-50 m-1">
+                <button className="bg-gradient-to-r from-blue-500 to-purple-500 text-xl w-auto px-3 rounded-full font-bold text-white  sm:w-50 m-1">
                     Get Started
                 </button>
             </div>
@@ -296,10 +296,10 @@ const DigitalArtCourse = () => {
                                 key={index}
                                 className="bg-white p-6 rounded-lg shadow-sm hover:gradient-shadow transition-gradient-shadow"
                             >
-                                <p className="font-bold text-black-600">
+                                <p className="font-bold text-black-600 flex items-center justify-center">
                                     {testimonial.name}
                                 </p>
-                                <p className="text-gray-500 text-sm">
+                                <p className="text-gray-500 text-sm flex items-center justify-center">
                                     {testimonial.age}
                                 </p>
                                 <p className="text-gray-600 mb-4">
